@@ -1,0 +1,8 @@
+.layout {
+    width: 500px;
+}
+
+.layout__tiles {
+    display: flex;
+    flex-wrap: wrap;
+}
