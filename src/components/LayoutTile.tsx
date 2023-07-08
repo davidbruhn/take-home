@@ -1,9 +1,8 @@
-import { BATTERIES } from '../batteries';
+import { Device } from '../types';
 import './LayoutTile.css';
 
-function LayoutTile({ id }: { id: string }) {
-    const { iconColor, length } = BATTERIES[id];
-    return <div className="layout__tile" style={{ width: `${length * 5}px`, backgroundColor: `${iconColor}` }}>
+function LayoutTile({ device }: { device: Device }) {
+    return <div className="layout__tile" style={{ width: `${device.length * 10}px` }}>{ device.name }
     </div>
 }
 

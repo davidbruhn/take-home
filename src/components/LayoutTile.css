@@ -1,6 +1,10 @@
 .layout__tile {
-    background-color: black;
+    background-color: #196bde;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid white;
     box-sizing: border-box;
-    height: 50px;
+    height: 100px;
 }

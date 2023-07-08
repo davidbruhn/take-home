@@ -1,4 +1,5 @@
 export interface Device {
+    id: string;
     name: string;
     cost: number;
     energy: number;
@@ -7,7 +8,5 @@ export interface Device {
 }
 
 export interface Battery extends Device {
-    iconColor: string;
-    id: string;
     releaseYear: number;
 }

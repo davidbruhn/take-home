@@ -1,8 +1,12 @@
 .layout {
-    width: 500px;
+    width: 1000px;
 }
 
 .layout__tiles {
     display: flex;
     flex-wrap: wrap;
+}
+
+.fixed {
+    text-decoration: underline;
 }
